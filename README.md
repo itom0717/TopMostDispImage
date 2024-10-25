@@ -19,6 +19,13 @@ Y座標 : 画像を表示するモニタのY座標(ピクセル)
 タスクバーのアプリアイコンを右クリックでウィンドウを閉じるで終了させてください
 
 
+
+## 開発環境
+ Microsoft Visual Studio Community 2022
+
+## 必要ランタイム
+ .NET 8.0
+
 ## Licence
 * MIT  
     * see LICENSE
