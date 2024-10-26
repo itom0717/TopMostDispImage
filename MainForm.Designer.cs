@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             ImagePictureBox = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)ImagePictureBox).BeginInit();
             SuspendLayout();
@@ -49,6 +50,7 @@
             ClientSize = new Size(345, 328);
             Controls.Add(ImagePictureBox);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "MainForm";
